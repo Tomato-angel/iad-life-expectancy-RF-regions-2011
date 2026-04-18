@@ -1,12 +1,11 @@
 # 📊 README
 
-```markdown
 <!-- Colab Badge - Кнопка для открытия в Google Colab -->
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Tomato-angel/iad-life-expectancy-RF-regions-2011/blob/master/notebooks/workflow.ipynb)
 
 ---
 
-# 🇷🇺 Влияние обеспеченности врачами на ожидаемую продолжительность жизни в регионах РФ (2011 г.)
+# [🇷🇺]  Влияние обеспеченности врачами на ожидаемую продолжительность жизни в регионах РФ (2011 г.)
 
 > **Интеллектуальный анализ данных (ИАД)** | Учебный проект
 
@@ -150,8 +149,6 @@ graph TD
     D --> E[🔗 Корреляционный анализ]
     E --> F[📐 Регрессионная модель]
     F --> G[✅ Проверка гипотез]
-    G --> H[🔍 Кластеризация регионов]
-    H --> I[🎯 Уточнённые модели по кластерам]
     I --> J[📝 Итоговые выводы]
 ```
 
@@ -176,16 +173,7 @@ graph TD
 После выполнения ноутбука в папке `notebooks/figures/` будут сохранены:
 - 📊 Графики распределения переменных
 - 📈 Диаграммы рассеяния и регрессионные линии
-- 🗺 Визуализация кластеров регионов
 - 📄 `descriptive_stats.csv` — таблица описательных статистик
-
----
-
-## 👥 Автор
-
-**Сидоров Евгений Александрович**  
-🎓 Группа: МИСТ 25-2-2  
-📅 Дата: 15.04.2026
 
 ---
 
@@ -226,7 +214,6 @@ Identify the statistical dependence between medical staff availability and life 
 2. Calculate descriptive statistics and assess variable variability
 3. Test hypothesis on the significance of doctor availability impact on life expectancy
 4. Build linear regression model and evaluate its adequacy
-5. Regional clustering and refined model development
 
 ### 🧪 Hypothesis Testing
 ```
@@ -381,14 +368,6 @@ After running the notebook, the `notebooks/figures/` folder will contain:
 
 ---
 
-## 👥 Author
-
-**Evgeniy A. Sidorov**  
-🎓 Group: MIST 25-2-2  
-📅 Date: April 15, 2026
-
----
-
 ## 📄 License
 
 This project was created for educational purposes. Data is provided by Rosstat as open public information.
@@ -403,18 +382,3 @@ Please star the repository — it helps other students discover this resource! �
 
 > 💡 **Tip**: Use browser translation or the language links above to switch between Russian and English versions.
 ```
-
----
-
-## 🔧 Как добавить этот README в репозиторий:
-
-1. **Скопируйте** содержимое выше
-2. **Создайте/замените** файл `README.md` в корне репозитория
-3. **Закоммитьте** изменения:
-   ```bash
-   git add README.md
-   git commit -m "docs: add bilingual README with Colab badge"
-   git push origin master
-   ```
-
----
