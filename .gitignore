@@ -1,7 +1,7 @@
 .venv/
 trash/
-nosync/*
-assets/tables
+nosync/
+assets/tables/
 *_old*
 *_deprecated*
 *(old)*
