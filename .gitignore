@@ -2,3 +2,7 @@
 trash/
 nosync/*
 assets/tables
+*_old*
+*_deprecated*
+*(old)*
+*(deprecated)*
